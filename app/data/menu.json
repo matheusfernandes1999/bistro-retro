@@ -1,0 +1,175 @@
+{
+  "categories": [
+    {
+      "id": "pizzas",
+      "name": "Pizzas Artesanais",
+      "description": "Pizzas feitas com ingredientes frescos e massa artesanal"
+    },
+    {
+      "id": "entradas",
+      "name": "Entradas",
+      "description": "Aperitivos para começar bem sua refeição"
+    },
+    {
+      "id": "massas",
+      "name": "Massas",
+      "description": "Massas frescas com molhos especiais"
+    },
+    {
+      "id": "bebidas",
+      "name": "Bebidas",
+      "description": "Vinhos, cervejas e bebidas especiais"
+    },
+    {
+      "id": "sobremesas",
+      "name": "Sobremesas",
+      "description": "Doces tradicionais italianos"
+    }
+  ],
+  "items": [
+    {
+      "id": "pizza-001",
+      "name": "Margherita Clássica",
+      "description": "Molho de tomate, mussarela de búfala, manjericão fresco e azeite extra virgem",
+      "imageURL": "/images/menu/pizza-margherita.jpg",
+      "price": 45.90,
+      "category": "pizzas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "15-20 min"
+    },
+    {
+      "id": "pizza-002",
+      "name": "Quattro Formaggi",
+      "description": "Quatro queijos especiais: gorgonzola, parmesão, provolone e mussarela",
+      "imageURL": "/images/menu/pizza-quattro.jpg",
+      "price": 52.90,
+      "category": "pizzas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "15-20 min"
+    },
+    {
+      "id": "pizza-003",
+      "name": "Pepperoni Premium",
+      "description": "Pepperoni artesanal, mussarela, molho especial e orégano",
+      "imageURL": "/images/menu/pizza-pepperoni.jpg",
+      "price": 48.90,
+      "category": "pizzas",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "15-20 min"
+    },
+    {
+      "id": "pizza-004",
+      "name": "Calabresa Gourmet",
+      "description": "Calabresa defumada, cebola caramelizada, azeitonas e pimentão",
+      "imageURL": "/images/menu/pizza-calabresa.jpg",
+      "price": 46.90,
+      "category": "pizzas",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "15-20 min"
+    },
+    {
+      "id": "entrada-001",
+      "name": "Bruschetta Italiana",
+      "description": "Pão italiano tostado com tomate, manjericão, alho e azeite",
+      "imageURL": "/images/menu/bruschetta.jpg",
+      "price": 24.90,
+      "category": "entradas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "10 min"
+    },
+    {
+      "id": "entrada-002",
+      "name": "Tábua de Frios Premium",
+      "description": "Seleção de queijos, embutidos, azeitonas e geleias artesanais",
+      "imageURL": "/images/menu/tabua-frios.jpg",
+      "price": 68.90,
+      "category": "entradas",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "5 min"
+    },
+    {
+      "id": "massa-001",
+      "name": "Spaghetti Carbonara",
+      "description": "Massa fresca com bacon, ovos, parmesão e pimenta do reino",
+      "imageURL": "/images/menu/carbonara.jpg",
+      "price": 42.90,
+      "category": "massas",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "20 min"
+    },
+    {
+      "id": "massa-002",
+      "name": "Penne all Arrabbiata",
+      "description": "Penne com molho de tomate picante, alho e pimenta",
+      "imageURL": "/images/menu/arrabbiata.jpg",
+      "price": 35.90,
+      "category": "massas",
+      "isVegetarian": true,
+      "isSpicy": true,
+      "isAvailable": true,
+      "preparationTime": "18 min"
+    },
+    {
+      "id": "bebida-001",
+      "name": "Vinho Tinto Reserva",
+      "description": "Seleção especial da casa, harmoniza perfeitamente com nossas pizzas",
+      "imageURL": "/images/menu/vinho.jpg",
+      "price": 89.90,
+      "category": "bebidas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "Imediato"
+    },
+    {
+      "id": "bebida-002",
+      "name": "Cerveja Artesanal IPA",
+      "description": "Cerveja encorpada com notas cítricas e amargor equilibrado",
+      "imageURL": "/images/menu/cerveja-ipa.jpg",
+      "price": 18.90,
+      "category": "bebidas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "Imediato"
+    },
+    {
+      "id": "sobremesa-001",
+      "name": "Tiramisù Tradicional",
+      "description": "Sobremesa italiana com café, mascarpone e cacau",
+      "imageURL": "/images/menu/tiramisu.jpg",
+      "price": 24.90,
+      "category": "sobremesas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "5 min"
+    },
+    {
+      "id": "sobremesa-002",
+      "name": "Panna Cotta de Frutas Vermelhas",
+      "description": "Creme italiano com calda de frutas vermelhas da estação",
+      "imageURL": "/images/menu/panna-cotta.jpg",
+      "price": 22.90,
+      "category": "sobremesas",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "isAvailable": true,
+      "preparationTime": "5 min"
+    }
+  ]
+}
